@@ -3,18 +3,19 @@ export const About = () => {
 
     const frontendSkills = [
         "React",
-        "Vue",
-        "TypeScript",
+        "Next.js",
+        "Framer Motion",
         "Tailwind",
         "Bootstrap",
+        "Redux Toolkit",
     ]
 
     const backendSkills = [
         "Node.js",
-        "AWS",
+        "Express.js",
         "MongoDB",
-        "MySQL",
-        "Express",
+        "Firebase",
+        "Rest API",
     ]
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
         <RevealOnScroll>
@@ -74,12 +75,6 @@ export const About = () => {
                                     <h4 className="font-semibold">Intern at Wind.App</h4>
                                     <p>
                                         Developed and maintained all the API integration for cloud based applications
-                                    </p>
-                                </div>
-                                <div>
-                                    <h4 className="font-semibold">Fronted Developer at Bugfix</h4>
-                                    <p>
-                                        Assisted in building front-end components and integration Rest APIs
                                     </p>
                                 </div>
                             </div>
