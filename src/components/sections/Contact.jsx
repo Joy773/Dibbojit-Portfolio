@@ -18,17 +18,17 @@ export const Contact = () => {
         
         emailjs
         .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
-        .then((result) => {
+        .then(() => {
             alert("Message Sent!");
             setFormData({name: "", email: "", message: ""})
     })
     .catch(() => alert("Oops! Something went wrong. Please try again."));
 };
     return( 
-    <section id="contact" className="min-h-screen flex items-center justify-center py-20">
+    <section id="contact" className="min-h-screen flex items-center justify-center py-16 sm:py-20">
         <RevealOnScroll>
-            <div className="px-4 w-150">
-                <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Get In Touch</h2>
+            <div className="w-full max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl px-4 sm:px-6 md:px-8 mx-auto">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Get In Touch</h2>
                 <form className="space-y-6" onSubmit={handleSubmit}>
                     <div className="relative">
                         <input type="text" id="name" name="name" required
