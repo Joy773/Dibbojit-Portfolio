@@ -32,7 +32,7 @@ export const Projects = () => {
             title:"Blogger - Blog Website",
             description: "A blog website built with NextJS, TailwindCSS, and MongoDB. It allows users to create, read, update, and delete blogs.",
             technologies: ["NextJS", "TailwindCSS", "MongoDB"],
-            link: "https://vroome-eta.vercel.app/"
+            link: "https://blog-app-green-ten.vercel.app/"
         }
     ];
 
