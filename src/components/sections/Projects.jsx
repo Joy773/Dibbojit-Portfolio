@@ -26,7 +26,7 @@ export const Projects = () => {
             title: "Vroome - Car Rental System",
             description: "A car rental system built with React, TailwindCSS, and MongoDB. It allows users to rent a car and return it after use.",
             technologies: ["React", "TailwindCSS", "MongoDB"],
-            link: "https://vroome-eta.vercel.app/"
+            link: "https://blog-app-green-ten.vercel.app/"
         },
         {
             title:"Blogger - Blog Website",
