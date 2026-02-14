@@ -33,6 +33,12 @@ export const Projects = () => {
             description: "A blog website built with NextJS, TailwindCSS, and MongoDB. It allows users to create, read, update, and delete blogs.",
             technologies: ["NextJS", "TailwindCSS", "MongoDB"],
             link: "https://blog-app-green-ten.vercel.app/"
+        },
+        {
+            title: "MovieFlix - Movie Discovery",
+            description: "A movie discovery platform to browse, search, and explore movies. Browse popular films, discover new releases, and get detailed movie information.",
+            technologies: ["NextJS", "TailwindCSS", "TMDB API"],
+            link: "https://movie-flix-blond-five.vercel.app/"
         }
     ];
 
