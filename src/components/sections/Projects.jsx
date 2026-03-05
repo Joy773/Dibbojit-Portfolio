@@ -11,22 +11,10 @@ export const Projects = () => {
             link: "https://green-cart-frontend-brown.vercel.app/"
         },
         {
-            title: "Jokify",
-            description: "Discover, share, and enjoy thousands of hilarious jokes anytime, anywhere. Whether you need a quick smile or want to brighten up your day with funny one-liners, puns, or witty anecdotes, Jokify has got you covered.",
-            technologies: ["React", "RestAPI", "Fetch"],
-            link: "https://joke-app-rouge-ten.vercel.app/"
-        },
-        {
-            title: "Private Chat App",
-            description: "A private chat app built with Socket.IO, Redis, NextJs, and TailwindCSS. It allows users to chat with each other in real-time.",
-            technologies: ["Socket.IO", "Redis", "NextJs", "TailwindCSS", "ElysiaJS"],
-            link: "https://private-chat-lime.vercel.app/"
-        },
-        {
-            title: "Vroome - Car Rental System",
-            description: "A car rental system built with React, TailwindCSS, and MongoDB. It allows users to rent a car and return it after use.",
-            technologies: ["React", "TailwindCSS", "MongoDB"],
-            link: "https://vroome-eta.vercel.app/"
+            title: "MovieFlix - Movie Discovery",
+            description: "A movie discovery platform to browse, search, and explore movies. Browse popular films, discover new releases, and get detailed movie information.",
+            technologies: ["NextJS", "TailwindCSS", "TMDB API"],
+            link: "https://movie-flix-blond-five.vercel.app/"
         },
         {
             title:"Blogger - Blog Website",
@@ -35,10 +23,28 @@ export const Projects = () => {
             link: "https://blog-app-green-ten.vercel.app/"
         },
         {
-            title: "MovieFlix - Movie Discovery",
-            description: "A movie discovery platform to browse, search, and explore movies. Browse popular films, discover new releases, and get detailed movie information.",
-            technologies: ["NextJS", "TailwindCSS", "TMDB API"],
-            link: "https://movie-flix-blond-five.vercel.app/"
+            title: "Vroome - Car Rental System",
+            description: "A car rental system built with React, TailwindCSS, and MongoDB. It allows users to rent a car and return it after use.",
+            technologies: ["React", "TailwindCSS", "MongoDB"],
+            link: "https://vroome-eta.vercel.app/"
+        },
+        {
+            title: "TaskFlow - Project Management System",
+            description: "A project management system to organize tasks and collaborate with your team. Sign in to manage projects with role-based access for admins, team leaders, and employees.",
+            technologies: ["React", "TailwindCSS", "Shadcn UI"],
+            link: "https://task-flow-project-management-system.vercel.app/login"
+        },
+        {
+            title: "Private Chat App",
+            description: "A private chat app built with Socket.IO, Redis, NextJs, and TailwindCSS. It allows users to chat with each other in real-time.",
+            technologies: ["Socket.IO", "Redis", "NextJs", "TailwindCSS", "ElysiaJS"],
+            link: "https://private-chat-lime.vercel.app/"
+        },
+        {
+            title: "Jokify",
+            description: "Discover, share, and enjoy thousands of hilarious jokes anytime, anywhere. Whether you need a quick smile or want to brighten up your day with funny one-liners, puns, or witty anecdotes, Jokify has got you covered.",
+            technologies: ["React", "RestAPI", "Fetch"],
+            link: "https://joke-app-rouge-ten.vercel.app/"
         }
     ];
 
